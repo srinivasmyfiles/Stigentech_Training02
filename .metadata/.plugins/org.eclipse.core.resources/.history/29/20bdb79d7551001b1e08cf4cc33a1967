@@ -1,0 +1,5 @@
+package com.Stigentech.jdbc.model;
+
+public class Product {
+
+}

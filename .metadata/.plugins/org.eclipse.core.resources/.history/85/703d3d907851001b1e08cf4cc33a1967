@@ -1,0 +1,23 @@
+package com.Stigentech.jdbc;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.Stigentech.jdbc.dao.Productrepositoryimpl;
+import com.Stigentech.jdbc.model.Product;
+
+@SpringBootApplication
+public class SpringJdbcApplication {
+
+	public static void main(String[] args) {
+	ApplicationContext ac	=SpringApplication.run(SpringJdbcApplication.class, args);
+	Productrepositoryimpl dao = ac.getBean(Productrepositoryimpl.class);
+	
+	
+	Product prod=new Product();
+	
+	
+	}
+
+}
