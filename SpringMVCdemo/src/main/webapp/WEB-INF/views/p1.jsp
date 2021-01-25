@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>SPRING BOOT MVC  demo</h1>
+<h1>spring restful</h1>
 </body>
 </html>
